@@ -63,8 +63,8 @@ showAlertDialog1(BuildContext context)
     },
   );
 }
-
 */
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -103,14 +103,14 @@ showAlertDialog1(BuildContext context)
                 fixedSize: Size(100, 100),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(24)
-                )
+                  )
                 ),
               )
              ],
             ), 
-        ],
-      ),)
+          ],
+        ),
+      )
     );
-    
   }
 }
